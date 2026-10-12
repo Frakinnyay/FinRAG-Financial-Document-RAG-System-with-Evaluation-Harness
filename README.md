@@ -1,5 +1,5 @@
 # FinRAG — Financial Document RAG with Table-Aware Chunking + RAGAS Eval
-
+**Live Demo:** [Try the application here](https://huggingface.co/spaces/wrtdevcod/Finrag)
 A RAG system over Indian annual reports (TCS, Reliance, Infosys, Tata Motors,
 HDFC Bank) that answers analyst-style questions with citations, and
 publishes measured retrieval-quality metrics instead of just a demo.
@@ -278,9 +278,9 @@ subset** due to Groq free-tier rate limits (see note below).
 
 | Metric | Score | What it measures |
 |---|---|---|
-| Faithfulness | 0.651 | Are claims in the answer actually supported by retrieved context? |
+| Faithfulness | 0.751 | Are claims in the answer actually supported by retrieved context? |
 | Answer Relevancy | not reliably computed | Does the answer address the question asked? |
-| Context Precision | 0.658 | Of retrieved chunks, how many were actually relevant? |
+| Context Precision | 0.768 | Of retrieved chunks, how many were actually relevant? |
 | Context Recall | 0.400 | Did retrieval surface everything needed to answer correctly? |
 
 | Stage | Avg latency | P95 |
